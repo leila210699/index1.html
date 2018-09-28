@@ -1,0 +1,112 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #FFFF00;
+    color: #ffffff;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #DC143C;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #DC143C;
+}
+.aside {
+    background-color: #DC143C;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #FFFF00;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 550px) {
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Itunes</h1>
+</div>
+
+<div class="row">
+
+<div class="col-3 menu">
+  <ul>
+    <li>Обзор</li>
+    <li>Музыка</li>
+    <li>Чарты</li>
+    <li>Видео</li>
+  </ul>
+</div>
+
+<div class="col-6">
+  <h1>Itunes</h1>
+  <p>Скачивается мгновенно.
+Радует бесконечно.
+iTunes открывает безграничный мир развлечений. Здесь собраны фильмы, музыка, ТВ-шоу и многое другое. Прямо в iTunes вы можете подписаться на Apple Music и слушать более 50 миллионов песен. Без рекламы. В потоковом режиме или офлайн.</p>
+</div>
+
+<div class="col-3 right">
+  <div class="aside">
+    <h2>50 миллионов песен на всех 
+ваших устройствах.
+Расширяйте свои музыкальные горизонты с Apple Music. Если у вас есть iPhone или iPad, значит, у вас есть и Apple Music. Откройте приложение «Музыка» и нажмите «Пробная подписка».
+
+Слушайте любимую музыку на всех ваших 
+устройствах без рекламы — онлайн или офлайн.
+Оформите бесплатную пробную подписку на три месяца. 
+Вы сможете отказаться от неё в любой момент.*</h2>
+    <p></p>
+    <h2></h2>
+    <p></p>
+    <h2></h2>
+    <p></p>
+  </div>
+</div>
+
+</div>
+
+<div class="footer">
+  <p></p>
+</div>
+
+</body>
+</html>
