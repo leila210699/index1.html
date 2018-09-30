@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 150px;
+    height: 150px;
+    background: pink;
+    position: relative;
+    -webkit-animation: myfirst 4s; 
+    -webkit-animation-direction: alternate; 
+    animation: myfirst 4s;
+    animation-direction: alternate;
+}
+
+
+@-webkit-keyframes myfirst {
+    0%   {background: pink; left: 0px; top: 0px;}
+    30%  {background: pink; left: 100px; top: 0px;}
+    60%  {background: pink; left: 100px; top: 100px;}
+    90%  {background: pink; left: 0px; top: 100px;}
+    100% {background: pink; left: 0px; top: 0px;}
+}
+
+@keyframes myfirst {
+    0%   {background: pink; left: 0px; top: 0px;}
+    30%  {background: pink; left: 100px; top: 0px;}
+    60%  {background: pink; left: 100px; top: 100px;}
+    95%  {background: pink; left: 0px; top: 100px;}
+    100% {background: pink; left: 0px; top: 0px;}
+}
+</style>
+</head>
+<body>
+
+<h1></h1>
+
+<p></p>
+<div></div>
+<p><strong></strong></p>
+
+</body>
+</html>
